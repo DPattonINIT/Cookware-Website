@@ -38,4 +38,16 @@ width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
+  
+}
+.cooking-container{
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
+.cooking-container h1{
+    font-size: 4rem;
+    font-weight: bolder;
+
 }
