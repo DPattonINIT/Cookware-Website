@@ -106,12 +106,154 @@ body {
   font-weight: 300%;
   font-size: 3rem;
 }
+
+/* Arrival Container -Start */
 .newArrivals{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-row: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   gap: 10px;
+    width: 100%; 
+    flex-direction: row;
+}
+
+
+.arrival-Card{
+
+    
+
+}
+.arrival-Content{
     
 }
-.arrival-Tex h1{
+.arrival-img1{
+    height: 560px;
+    width: 560px;
+    object-fit: cover;
+    
+    
+}
+.arrival-img2{
+    height: 560px;
+    width: 560px;
+    object-fit: cover;
+    
    
+}
+.arrival-header{
+   text-align: center;
+   margin-bottom: 35px;
+   margin-top: 60px;
+   
+}
+
+.arrival-Tex h1{
+  align-items: center;
+ 
+   
+}
+.color-Selector{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.first-Color{
+    background-color: #ea2d2c;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid #353535 4px;
+    
+   
+}
+.second-Color{
+    background-color: #fb5108;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.third-Color{
+    background-color: #d29d12;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.fourth-Color{
+    background-color: #353535;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.newArrivals p{
+    font-size: 14px;
+}
+
+
+/* Arrival Container-End */
+
+
+
+/* Best Sellers Start */
+
+.bestsellers-Title{
+    text-align: center;
+    color: #1e2c20;
+    
+}
+.card-Container{
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    margin-top: 100px;
+    /* gap: 20px; */
+}
+.card-One{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid #000;
+    overflow: hidden;
+    padding: 20px;
+    height: 550px;
+}
+
+.card-Two{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid #000;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.card-Three{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid #000;
+    overflow: hidden;
+    padding: 20px;
+}
+.card-img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+.card-img2{
+    width: 100%;
+    height: 53%;
+    border-radius: 10px;
+}
+.card-One-Content{
+    padding-top: 10px;
+}
+.card-Two-Content{
+    padding-top: 10px;
+}
+.card-Three-Content{
+    padding-top: 10px;
+}
+.card-Three-Content p {
+    padding-bottom: 65px;
 }
