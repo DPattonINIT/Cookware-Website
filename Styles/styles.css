@@ -23,6 +23,21 @@ body {
   /* transform: scale(1.25);
   transform-origin: center; */
 }
+.imgLogo2 {
+  padding-right: 1px;
+  background-color: #b73a2a;
+  height: 5rem;
+  border-radius: 7%;
+  margin-right: 40px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin-top: 0.5rem;
+}
+/* @media screen and (max-width: 767px){
+    .hamburger-Container{
+        display: hidden;
+    }
+
+} */
 
 .hero-img {
   width: 100%;
@@ -62,7 +77,9 @@ body {
 .page-break {
   height: 5rem;
   background-color: #1e2c20;
+  width: 100%;
 }
+
 .page-break h3 {
   color: #ededed;
   display: flex;
@@ -78,16 +95,17 @@ body {
   gap: 1rem;
 }
 
+
 .cooking-Text {
-  grid-row: 1;
-  grid-column: 2/ 4;
+  /* grid-row: 1; */
+  grid-column: 1/ 5;
   padding-top: 5rem;
   font-weight: bolder;
-  font-size: 4rem;
+  font-size: 60px;
   margin: 0 auto;
 }
 .pot-img {
-  grid-row: 2;
+  /* grid-row: 2; */
   height: auto;
   width: 100%;
   border-radius: 5%;
@@ -100,9 +118,9 @@ body {
   transform: scale(1.1);
 }
 .pot-Text {
-  grid-row: 3;
+  /* grid-row: 3; */
   font-weight: 300%;
-  font-size: 3rem;
+  font-size: 30px;
 }
 
 /* Arrival Container -Start */
@@ -115,10 +133,6 @@ body {
   flex-direction: row;
 }
 
-.arrival-Card {
-}
-.arrival-Content {
-}
 .arrival-img1 {
   height: 560px;
   width: 560px;
@@ -132,7 +146,7 @@ body {
 .arrival-header {
   text-align: center;
   margin-bottom: 35px;
-  margin-top: 60px;
+  margin-top: 5px;
 }
 
 .arrival-Tex h1 {
@@ -236,76 +250,182 @@ body {
 .card-Three-Content p {
   padding-bottom: 65px;
 }
-.card-btn {
+.card-Btn {
   display: inline-block;
-  padding: 8px 16px;
-  background-color: hsl(0, 60%, 99%);
+  
+  background-color: #fff;
   border-radius: 4px;
-  border: solid #000 3px;
+  border: solid #000 1px;
   color: #000;
 }
 
 /* Best Sellers Section End----------------------- */
-
-
-
-
-
-
 
 /* Reviews Section Start-------------------------- */
 
 .review-Title {
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
-.review-Container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-
+.review-Title h1 {
+  font-weight: 900;
+  font-size: 70px;
+}
+.review-Container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
+  gap: 20px;
 }
 .review-CardOne {
-  width: 531px;
-  height: 664.751px;
+  width: 450px;
+  height: 600px;
   position: relative;
- 
 }
 .review-CardTwo {
-    width: 531px;
-    height: 664.751px;
-    position: relative;
-  
-   
-  }
-  .review-CardThree {
-    width: 531px;
-    height: 664.751px;
-    position: relative;
-   
-   
-  }
+  width: 450px;
+  height: 600px;
+  position: relative;
+}
+.review-CardThree {
+  width: 450px;
+  height: 600px;
+  position: relative;
+}
 .review-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
-  
 }
 .review-Box {
   background-color: #0000008f;
   position: relative;
-  bottom: 31.5rem;
+  bottom: 30rem;
   text-align: center;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 73px 28px;
   width: 25rem;
   height: 345px;
   width: auto;
- margin-left: 2%;
- border-radius: 10%;
-
-
+  margin-left: 2%;
+  border-radius: 2%;
+  margin-right: 3%;
   color: white;
+}
+
+/* Footer Section------------------------------- */
+.footer-box {
+  background-color: #1e2c20;
+  height: 20rem;
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  /* padding-left: 6%;
+  padding-top: 5%; */
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.about-Container {
+  color: #ededed;
+}
+.products-Container {
+  color: #ededed;
+}
+.customer-Container {
+  color: #ededed;
+}
+.about-Container h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.about-Container p {
+  font-size: 15px;
+  font-weight: 200;
+}
+.products-Container h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.products-Container p {
+  font-size: 15px;
+  font-weight: 200;
+}
+.customer-Container h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.customer-Container p {
+  font-size: 15px;
+  font-weight: 200;
+}
+.input-Container {
+  display: flex;
+  position: relative;
+  padding-left: 300px;
+}
+.text-Container {
+  width: 720px;
+  padding-left: 300px;
+}
+.text-Container p {
+  color: #ededed;
+  text-align: left;
+}
+.email-Bar {
+  width: 300px;
+  height: 50px;
+}
+.subscribe-Button {
+  background-color: #1e2c20;
+  border-color: #ededed;
+  color: #ededed;
+}
+.subscribe-container{
+    width: 20%;
+    height: 40%;
+}
+
+.logo-Container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 2%;
+  margin-left: 65px;
+}
+.flogo {
+  width: 30px;
+}
+.tlogo {
+  width: 30px;
+}
+.ilogo {
+  width: 30px;
+}
+.llogo {
+  width: 30px;
+}
+
+@media screen and (max-width:767px) {
+    .cooking-container {
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+@media screen and (max-width: 576px){
+    .footer-box{
+        flex-wrap: wrap-reverse;
+    }
+    .subscribe-Container
+    {
+        margin-right: 15rem;
+    }
+    
+
 }

@@ -13,8 +13,11 @@
 
 
 <body>
-    <!-- BootStrap Section -->
-    <ul class="nav justify-content-center navbar">
+
+
+
+
+    <ul class="nav justify-content-center navbar d-none d-lg-block">
         <div class="col-1 ">
             <img class="imgLogo" src="./Assests/images for use on website/Icons/Pot.png" alt="image of logo">
         </div>
@@ -33,6 +36,63 @@
             </li>
         </div>
     </ul>
+
+
+
+
+
+    <!-- Mobile Navbar BootStrap -->
+ <nav class="navbar bg-body-tertiary fixed-top hamburger-Container d-lg-none">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div>
+                <img class="imgLogo2" src="./Assests/images for use on website/Logo.svg" alt="Logo Image">
+            </div>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+
+                <div class="offcanvas-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">COOKWARE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">BAKEWARE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ACCESSORIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: red;" aria-current="page" href="#">SALE</a>
+                        </li>
+
+
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </nav> 
+
+
+
+
+
+
+
+
 
     <!-- Hero Image -->
     <div class="hero-container">
@@ -66,6 +126,12 @@
         <h1 class="pot-Text">Sauce Pan</h1>
         <h1 class="pot-Text">Accessories</h1>
     </div>
+
+
+
+
+
+    
 
     <!-- New Arrivals Section FlexBox -->
     <div class="arrival-header">
@@ -114,7 +180,8 @@
                 <h2>Stock Pot</h2>
                 <p>Our fall bakeware is back again with warm fall colors.Check out our fall line bakeware from fall
                     colored pots to bakeware.</p>
-                <a class="card-btn">Shop Now </a>
+                    <button class="card-Btn"> Shop Now</button>
+                
             </div>
         </div>
 
@@ -128,7 +195,7 @@
                     ensures that nothing sticks to the surface. Whether you're cooking for one or the whole family, the
                     Stock Pot is the perfect choice!</p>
 
-                <a class="card-btn">Shop Now </a>
+                    <button class="card-Btn"> Shop Now</button>
             </div>
         </div>
 
@@ -139,7 +206,7 @@
                 <p>The Sauce Pan is the perfect cookware for making a variety of sauces, stews, soups, and more.Its
                     stainless steel construction ensures even heat distrubtion for better and faster cooking. No matter
                     what you're cooking, you can count on the Sauce Pan to help you cook like a pro.</p>
-                <a class="card-btn">Shop Now </a>
+                    <button class="card-Btn"> Shop Now</button>
             </div>
         </div>
     </div>
@@ -164,32 +231,82 @@
         <div class="review-CardTwo">
             <img class="review-img" src="./Assests/pics/Reviews2.jpg" alt="">
             <div class="review-Box">
-                <h2>Wok Star!</h2>
-                <p>I love cooking using the cast iron wok for everday family meals. With the wok it makes the food I
-                    make turn into restaurant quality meals. I bought this wok for my parents and aslo siblings</p>
-                <p>David Jones</p>
+                <h2>Built To Last</h2>
+                <p>Bought the cast iron pot and it lasted longer then the other brands I bought. Not only are the pots
+                    durable but the colors of the pots are so nice!</p>
+                <p>Danielle Johnson</p>
             </div>
         </div>
 
         <div class="review-CardThree">
-            <img class="review-img" src="./Assests/pics/BestSeller3.jpg" alt="">
+            <img class="review-img" src="./Assests/images for use on website/Reviews3.jpg" alt="">
             <div class="review-Box">
-                <h2>Wok Star!</h2>
-                <p>I love cooking using the cast iron wok for everday family meals. With the wok it makes the food I
-                    make turn into restaurant quality meals. I bought this wok for my parents and aslo siblings</p>
-                <p>David Jones</p>
+                <h2>Best Cookware!</h2>
+                <p>I love all the cooware. I just bought my 4th pan and love it so much! I love the color of the pot and
+                    how durable the pots are. I've recommened the cast iron pot to all my friends and family.</p>
+                <p>Michelle</p>
             </div>
         </div>
     </div>
 
+    <!-- Footer Section--------------------------------- -->
+
+    <div class="footer-Container">
+        <div class="footer-box">
+            <div class="about-Container">
+                <h2>ABOUT OUR HOME</h2>
+
+                <p>ABOUT US</p>
+                <p>CAREERS</p>
+                <p>POLICY</p>
+                <p>MEDIA RELATIONS</p>
+            </div>
+            <div class="products-Container">
+                <h2>PRODUCTS</h2>
+
+                <p>COOKWARE</p>
+                <p>BAKEWARE</p>
+                <p>BEST SELLERS</p>
+                <p>ACCESSORIES</p>
+            </div>
+            <div class="customer-Container">
+                <h2>CUSTOMER SERVICE</h2>
+
+                <p>CONTACT US</p>
+                <p>ORDER STATUS</p>
+                <p>RETURN & EXCHANGE</p>
+                <p>FAQS</p>
+            </div>
+
+            <div class="subscribe-Container">
+                <div class="text-Container">
+                    <p>Subscribe to our news letter to be the first to know about new products and special events.</p>
+                </div>
+                <div class="input-Container">
+                    <input type="text" placeholder="Enter email address" class="email-Bar">
+                    <button class="subscribe-Button">Subscribe</button>
+                </div>
+                <div class="logo-Container">
+                    <img class="flogo" src="./Assests/logo/facebook (1).png" alt="">
+                    <img class="tlogo" src="./Assests/logo/twitter.png" alt="">
+                    <img class="ilogo" src="./Assests/logo/instagram.png" alt="">
+                    <img class="llogo" src="./Assests/logo/linkedin.png" alt="">
+                </div>
+            </div>
+
+
+
+
+        </div>
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+            </script>
 </body>
 
 </html>
