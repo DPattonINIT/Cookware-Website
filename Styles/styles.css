@@ -76,7 +76,6 @@ body {
   width: 80%;
   margin: 0 auto;
   gap: 1rem;
- 
 }
 
 .cooking-Text {
@@ -86,7 +85,6 @@ body {
   font-weight: bolder;
   font-size: 4rem;
   margin: 0 auto;
-  
 }
 .pot-img {
   grid-row: 2;
@@ -95,7 +93,7 @@ body {
   border-radius: 5%;
   margin-top: -3rem;
   transition: transform 0.1s;
-  aspect-ratio: 1 / 1; 
+  aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 .pot-img:hover {
@@ -108,152 +106,176 @@ body {
 }
 
 /* Arrival Container -Start */
-.newArrivals{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-   gap: 10px;
-    width: 100%; 
-    flex-direction: row;
+.newArrivals {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  flex-direction: row;
 }
 
-
-.arrival-Card{
-
-    
-
+.arrival-Card {
 }
-.arrival-Content{
-    
+.arrival-Content {
 }
-.arrival-img1{
-    height: 560px;
-    width: 560px;
-    object-fit: cover;
-    
-    
+.arrival-img1 {
+  height: 560px;
+  width: 560px;
+  object-fit: cover;
 }
-.arrival-img2{
-    height: 560px;
-    width: 560px;
-    object-fit: cover;
-    
-   
+.arrival-img2 {
+  height: 560px;
+  width: 560px;
+  object-fit: cover;
 }
-.arrival-header{
-   text-align: center;
-   margin-bottom: 35px;
-   margin-top: 60px;
-   
+.arrival-header {
+  text-align: center;
+  margin-bottom: 35px;
+  margin-top: 60px;
 }
 
-.arrival-Tex h1{
+.arrival-Tex h1 {
   align-items: center;
- 
-   
 }
-.color-Selector{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+.color-Selector {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
-.first-Color{
-    background-color: #ea2d2c;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    border: solid #353535 4px;
-    
-   
+.first-Color {
+  background-color: #ea2d2c;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: solid #353535 4px;
 }
-.second-Color{
-    background-color: #fb5108;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
+.second-Color {
+  background-color: #fb5108;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }
-.third-Color{
-    background-color: #d29d12;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
+.third-Color {
+  background-color: #d29d12;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }
-.fourth-Color{
-    background-color: #353535;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
+.fourth-Color {
+  background-color: #353535;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }
-.newArrivals p{
-    font-size: 14px;
+.newArrivals p {
+  font-size: 14px;
 }
 
+/* Arrival Container-End----------------- */
 
-/* Arrival Container-End */
+/* Best Sellers Start------------------- */
 
-
-
-/* Best Sellers Start */
-
-.bestsellers-Title{
-    text-align: center;
-    color: #1e2c20;
-    
+.bestsellers-Title {
+  text-align: center;
+  color: #1e2c20;
 }
-.card-Container{
-    display: flex;
-    justify-content: space-evenly;
-    /* justify-content: center; */
-    flex-wrap: wrap;
-    margin-top: 100px;
-    /* gap: 20px; */
+.card-Container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 25px;
 }
-.card-One{
-    width: 400px;
-    background-color: #fff;
-    border-radius: 10px;
-    border: solid #000;
-    overflow: hidden;
-    padding: 20px;
-    height: 550px;
+.card-One {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: solid #000 2px;
+  overflow: hidden;
+  padding: 20px;
+  height: 550px;
 }
 
-.card-Two{
-    width: 400px;
-    background-color: #fff;
-    border-radius: 10px;
-    border: solid #000;
-    overflow: hidden;
-    padding: 20px;
+.card-Two {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: solid #000 2px;
+  overflow: hidden;
+  padding: 20px;
 }
 
-.card-Three{
-    width: 400px;
-    background-color: #fff;
-    border-radius: 10px;
-    border: solid #000;
-    overflow: hidden;
-    padding: 20px;
+.card-Three {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: solid #000 2px;
+  overflow: hidden;
+  padding: 20px;
 }
-.card-img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px; 
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
-.card-img2{
-    width: 100%;
-    height: 53%;
-    border-radius: 10px;
+.card-img2 {
+  width: 100%;
+  height: 53%;
+  border-radius: 10px;
 }
-.card-One-Content{
-    padding-top: 10px;
+.card-One-Content {
+  padding-top: 10px;
 }
-.card-Two-Content{
-    padding-top: 10px;
+.card-Two-Content {
+  padding-top: 10px;
 }
-.card-Three-Content{
-    padding-top: 10px;
+.card-Three-Content {
+  padding-top: 10px;
 }
 .card-Three-Content p {
-    padding-bottom: 65px;
+  padding-bottom: 65px;
+}
+.card-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: hsl(0, 60%, 99%);
+  border-radius: 4px;
+  border: solid #000 3px;
+  color: #000;
+}
+
+/* Best Sellers Section End----------------------- */
+
+/* Reviews Section Start-------------------------- */
+
+.review-Title {
+  text-align: center;
+  margin-top: 100px;
+}
+.review-CardOne {
+  width: 531px;
+  height: 664.751px;
+  position: relative;
+  /* background-image: url(../Assests/pics/Reviews1.jpg); */
+}
+.review-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+.review-Box {
+  background-color: #0000008f;
+  position: relative;
+  bottom: 31.5rem;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 78px 28px;
+  width: 25rem;
+ margin-left: 2%;
+
+
+  color: white;
 }
