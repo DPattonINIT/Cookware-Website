@@ -147,10 +147,13 @@ body {
   text-align: center;
   margin-bottom: 35px;
   margin-top: 5px;
+  
 }
 
-.arrival-Tex h1 {
+.arrival-Tex  {
   align-items: center;
+  font-weight: 700;
+  
 }
 .color-Selector {
   display: flex;
@@ -193,6 +196,7 @@ body {
 .bestsellers-Title {
   text-align: center;
   color: #1e2c20;
+  font-weight: 600;
 }
 .card-Container {
   display: flex;
